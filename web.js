@@ -29,4 +29,13 @@ function output(){
     document.getElementById("outcome").innerHTML=
     ("Born on Monday,your akan name is"+boy[1]);
   }
+  else if(Math.ceil(result)==2&&gender==='male');{
+    document.getElementById("outcome").innerHTML=
+    ("Born on Tuesday, your akan name is"+boy[2]);
+  }
+  else if(Math.ceil(result)==3&&gender==='male');{
+    document.getElementById("outcome").innerHTML=
+    ("Born on Wednesday, your akan name is"+boy[3]);
+  }
+  else if
 }
