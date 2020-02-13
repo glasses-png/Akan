@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <!-- <img src="images/HOMEPAGE-blue_0.jpg" height="500px" width="100%"> -->
+  <!-- <img src="images/images.jpeg"height="auto"width="100%"> -->
 
   <div id="nav">
     <ul>
@@ -35,7 +35,15 @@
   <div id="userbirthday">
     <h1>CURIOUS!</h1>
     <h2>Fill this form to know your Akan names</h2>
-    <label></label>
+    <label>DAY</label><br>
+    <input type="number"id="day"placeholder="DD"class="form-control"required><br><br><br>
+    <label>MONTH</label><br>
+    <input type="number"id="month"placeholder="MM"class="form-control"required><br><br><br>
+    <label>YEAR</label><br>
+    <input type="number"id="year"placeholder="YYYY"class="form-control"required><br><br><br>
+    <input type="radio"name="gender"id="gender"value="male"checked>Male<br><br><br>
+    <input type="radio"name="gender"value="female"checked>Female<br><br><br>
+    <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="output()">
 
   </div>
 
