@@ -1,31 +1,32 @@
   var century,year,month,dayOfMonth, dayOfWeek, day;
+
   function getInput(){
     century=parseInt(document.getElementById("century").value);
     year=parseInt(document.getElementById("year").value);
     month=parseInt(document.getElementById("month").value);
     dayOfMonth=parseInt(document.getElementById("dayOfMonth").value);
-    if (century==""){
+
+    if (century ==""){
       alert("Input the correct century");
       return false;
-    }
-    else if(year==""){
+    }else if(year ==""){
       alert("Input the correct year");
       return false;
-    }
-    else if(month==""){
+    }else if(month ==""){
       alert("Input the correct month");
       return false;
-    }
-    else if(dayOfMonth==""){
+    }else if(dayOfMonth ==""){
       alert("Input the correct date");
       return false;
     }
   }
+
   function calculateDay(){
     getInput();
     dayOfWeek=((((century/4)-2*CC-1)+((5*YY/4))+((26*(MM+1)/10))+DD)%7)-1;
     console.log(dayOfWeek);
-    return(dayOfWeek<0){
+    return(Math.floor(dayOfWeek<0));
+    if(dayOfWeek<0){
       dayOfWeek=dayOfWeek*-1;
     }
     else if(dayOfWeek>0){
@@ -39,12 +40,12 @@
   }
   let daysOfWeek=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
   let malenames=["kwasi","kwadwo","kwabena","kwaku","yaw","kofi","kwame"];
+  
   function checkGender(){
     var gen=document.getElementsByName("rads");
-    if(gen[0].checked==true){
+    if(gen[0].checked ==true){
       var gender="male";
-    }
-    else if(gen[1].checked==true){
+    }else if(gen[1].checked ==true){
       var gender="female";
     }
     else{
@@ -78,7 +79,7 @@
         }
     }
     break;
-    case gender = "female";
+     gender = "female";
             switch(day){
               case 0 || -0:
                 document.getElementById("result").innerHTML = "The day is on a sunday." + "  " + "Your akan name is  akosua";
@@ -104,7 +105,7 @@
 
           }
     break
-    default;
+    default:
     console.log("pass");
   }  
-  }
+  
