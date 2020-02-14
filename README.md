@@ -15,9 +15,9 @@ A web application that takes a user's birthday, calculates the day of week they 
 {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
 
 ## Technologies Used
-HTML
-Css
-Javascript
+HTML,
+Css,
+Javascript and 
 Bootstrap
 
 ## Support and contact details
