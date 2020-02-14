@@ -10,6 +10,7 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fondamento&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -33,18 +34,18 @@
         <div class="col-4">
             </div>
     <div class="container margin">
-                <label>DAY</label><br>
+                <label>Day</label><br>
                 <input type="number" id="day" placeholder="DD" required ><br>
-                <label>MONTH</label><br>
+                <label>Month</label><br>
                 <input type="number" id="month" placeholder="MM" required ><br>
-                <label>YEAR</label><br>
+                <label>Year</label><br>
                 <input type="number" id="year" placeholder="YYYY" required ><br>
-                <label>GENDER</label><br>
+                <label>Gender</label><br>
                 <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
                 <input type="radio" name="gender" value="female" > Female<br>
-                <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="myFunction()">
+                <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="output()">
       </div>
-      <h3 id="pop"></h3>
+      <h3 id="outcome"></h3>
 
         <script src='index.js'></script>
 </body>
