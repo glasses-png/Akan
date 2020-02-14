@@ -9,6 +9,7 @@
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lemonada&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -16,80 +17,36 @@
 </head>
 
 <body>
-  <!-- <img src="images/images.jpeg"height="auto"width="100%"> -->
-      <h1>Akan Names</h1>
-      <p>Akan names come from a traditional naming system for people from countries such as Togo, Ivory Coast and Ghana. A
-        child’s name is determined by factors surrounding his or her birth. For example, the day of their birth or the
-        manner in which they were born may determine which name they get irrespective of their gender. These Akan names
-        signify the day one is born. According to Akan tradition, each child is born with a name associated to their soul.
-        The day the child is born is therefore determined by the soul. The well thought and organized naming system of the
-        Akan’s was initiated by the ancestors and has attracted so many people’s attention as they desire to know more
-        about these names. As a matter of fact, it is possible to tell what led to someone’s birth, the day they were born
-        and their rank among the siblings just by their names.</p>
-    </div>
-    <h1>What is your Akan Name?</h1>
-    <div class="form row">
-      <div class="col-4">
-          </div>
-  <!-- <form name="akan">
-      <div>
-      <label class="Akan"><b>Name:</b></label>
-      <input type="text" placeholder="Enter your name" name="name" id="name" required>
-      </div> -->
-      <!-- <div>
-          <label class="b"><b>Birth Year:</b></label>
-          <input type="number" placeholder="YYYY" name="year" id="year" min="1" minlength="4" maxlength="4" step="1" required>
+    <!-- <img src="images/images.jpeg"height="auto"width="100%"> -->
+        <h1>Akan Names</h1>
+        <p>Akan names come from a traditional naming system for people from countries such as Togo, Ivory Coast and Ghana. A
+          child’s name is determined by factors surrounding his or her birth. For example, the day of their birth or the
+          manner in which they were born may determine which name they get irrespective of their gender. These Akan names
+          signify the day one is born. According to Akan tradition, each child is born with a name associated to their soul.
+          The day the child is born is therefore determined by the soul. The well thought and organized naming system of the
+          Akan’s was initiated by the ancestors and has attracted so many people’s attention as they desire to know more
+          about these names. As a matter of fact, it is possible to tell what led to someone’s birth, the day they were born
+          and their rank among the siblings just by their names.</p>
       </div>
-      <div>
-          <label class="c"><b>Birth Month:</b></label>
-          <input type="number" placeholder="MM" name="month" id="month" min="1" max="12" step="1" required>
+      <h1>What is your Akan Name?</h1>
+      <div class="form row">
+        <div class="col-4">
+            </div>
+    <div class="container margin">
+                <label>DAY</label><br>
+                <input type="number" id="day" placeholder="DD" required ><br>
+                <label>MONTH</label><br>
+                <input type="number" id="month" placeholder="MM" required ><br>
+                <label>YEAR</label><br>
+                <input type="number" id="year" placeholder="YYYY" required ><br>
+                <label>GENDER</label><br>
+                <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female" > Female<br>
+                <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="myFunction()">
       </div>
-      <div>
-          <label class="d"><b>Birth Date:</b></label>
-          <input type="number" placeholder="DD" name="date" id="date" min="1" max="31" step="1"required>
-      </div>
-      <div>
-          <p>Select Gender:</p>
-          <label for="male">Male</label>
-          <input id ="male" name="gender" type="radio" value="male">
-          <label for="female">Female</label>
-          <input id = "female" name="gender" type="radio" value="female">
-      </div>
-      <div>
-      <button type="submit" onclick="getName();return false;" value="submit">submit</button>
-      </div>
-      <div>
-          <p id="post"></p>
-      </div>
-  </form>
-</div> -->
-    <div class="col-md-6 right">
-      <div class="form-group top-form">
-      <label for="century"class="labels">Century</label>
-      <input type="number"class="form-control"placeholder="Enter the century"required min="1"max="30" id="century"><br><br>
-    </div>
-    <div class="form-group">
-      <label for="year" class="labels">Year</label>
-      <input type="number"class="form-control"placeholder="Enter the year"required min="1"max="1000" id="year"><br><br>
-    </div>
-    <div class="form-group">
-      <label for="month"class="labels">Month</label>
-      <input type="number"class="form-control"placeholder="Enter the month"required min="1"max="12" id="month"><br><br>
-    </div>
-    <div class="form-group">
-      <label for="monthDay"class="labels">month Day</label>
-      <input type="number"class="form-control"placeholder="Enter the monthDay"required min="1"max="31" id="dayOfMonth"><br><br>
-    </div>
-    <form class="radio-button">
-      <input type="radio"class="genders labels"value="male"id="rad1"name="rads"required>Male<br><br>
-      <input type="radio"class="genders labels"value="male"id="rad1"name="rads"required>Female
-    </form>
-    <br>
-    <a href="result"><button type="button" class="btn-primary mb-2"onclick="myFunction();">Submit</button></a>
-    <h1 id="result"></h1>
-  </div>
+      <h3 id="pop"></h3>
 
-      <script src='index.js'></script>
+        <script src='index.js'></script>
 </body>
 
 </html>
