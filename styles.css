@@ -1,8 +1,15 @@
 h1{
   font-family: 'Lemonada', cursive;
   text-align: center;
+  color: blue;
 }
 p{
-  color:darkgreen;
-  font-family: 'Fondamento', cursive;
+  color:black;
+  font-family: 'Arapey', serif;
+}
+*{
+  background-image: url(/images/akan.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
