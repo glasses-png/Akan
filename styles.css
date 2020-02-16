@@ -8,9 +8,27 @@ p{
   font-family: 'Arapey', serif;
   font-size: 20px;
 }
-*{
+body{
   background-image: url(/images/akan.jpeg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
+.container{
+  position: relative;
+  max-width: 800px;
+  margin: 0;
+}
+/* .container img{vertical-align: middle;}
+.container .content{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,0.5);
+  color: #f1f1f1;
+  width: 98%;
+  padding: 30px;
+} */
+/* *{
+  box-sizing: border-box;
+} */
