@@ -15,6 +15,11 @@ open the index.html on your favourite browser
 | Year | The year that the user was born, eg 98th year |
 | Month | The month of the year eg 6th month |
 | Date | The day of the month eg 16th day |
+
+| Outputs | Description |
+|--------- | -----------|
+| Day of birth | The day of the week that the user was born, eg Monday |
+| Akan name | The corresponding Akan name for the user eg Afua |
 ## Known Bugs
 {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
 
