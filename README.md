@@ -4,10 +4,10 @@
 A web application that takes a user's birthday, calculates the day of week they were born and depending on their gender outputs their Akan name.
 
 ## Setup/Installation Requirements
-https://github.com/glasses-png/Akan.git
-extract the file
-cd to the Akan-Names directory
-open the index.html on your favourite browser
+*https://github.com/glasses-png/Akan.git
+*extract the file
+*cd to the Akan-Names directory
+*open the index.html on your favourite browser
 
 ## BDD
 | Inputs | Description |
