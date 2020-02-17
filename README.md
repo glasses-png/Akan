@@ -21,7 +21,7 @@ A web application that takes a user's birthday, calculates the day of week they 
 | Day of birth | The day of the week that the user was born, eg Monday |
 | Akan name | The corresponding Akan name for the user eg Afua |
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+No known bugs
 
 ## Technologies Used
 HTML,
