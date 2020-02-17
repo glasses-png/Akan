@@ -1,3 +1,4 @@
+
 h1{
   font-family: 'Lemonada', cursive;
   text-align: center;
@@ -9,7 +10,8 @@ p{
   font-size: 20px;
 }
 body{
-  background-image: url(https://bit.ly/39IV2Aa);
+  /* background-color: coral; */
+  /* background-image: url(/images/unnamed.jpg); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
