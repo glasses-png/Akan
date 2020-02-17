@@ -1,8 +1,43 @@
+
 h1{
   font-family: 'Lemonada', cursive;
   text-align: center;
+  color: blue;
 }
 p{
-  color:darkgreen;
-  font-family: 'Fondamento', cursive;
+  color:black;
+  font-family: 'Arapey', serif;
+  font-size: 20px;
+}
+body{
+  /* background-color: coral; */
+  /* background-image: url(/images/unnamed.jpg); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.container{
+  position: relative;
+  max-width: 800px;
+  margin: 0;
+}
+/* .container img{vertical-align: middle;}
+.container .content{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,0.5);
+  color: #f1f1f1;
+  width: 98%;
+  padding: 30px;
+} */
+/* *{
+  box-sizing: border-box;
+} */
+@media screen and (min-width:480px) and (max-width:600px){
+  body{
+    background-color: brown;
+    color: cadetblue;
+  }
 }
